@@ -10,14 +10,11 @@ function App() {
 
     let api_key = process.env.REACT_APP_WEATHER_API_KEY;
     let url = "http://api.weatherstack.com/current?access_key=" + api_key + "&query=" + location + "&units=f";
-    console.log(url);
     let response = await fetch(url)
         .catch(error => {
             console.log(error);
         });
     let data = await response.json();
-
-    console.log(data);
 
     document.getElementById("submitForm").style.visibility= "hidden";
     document.getElementById("welcome").style.visibility= "hidden";

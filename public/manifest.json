@@ -4,13 +4,10 @@
   "version": "1.0.0",
   "description": "Simple weather applet to check the current weather!",
   "author": "Robby Rice",
-  "permissions": [
-      "storage"
-  ],
   "action": {
       "default_popup": "/index.html"
   },
   "icons": {
-    "16": "weathercheck_16.ico"
+    "128": "sun.ico"
   }
 }
