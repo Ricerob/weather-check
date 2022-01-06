@@ -1,6 +1,12 @@
 .App {
   text-align: center;
-  /*background-color: black;*/
+  min-width: 200px;
+  min-height: 300px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: #96b4e4;
 }
 
 .App-logo {
